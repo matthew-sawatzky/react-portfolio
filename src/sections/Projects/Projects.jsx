@@ -3,6 +3,7 @@ import styles from "./ProjectStyles.module.css";
 import roboscape from "../../assets/roboscape-logo.png";
 import bluesky from "../../assets/Blue-Sky-Logo.jpg";
 import pokedex from "../../assets/pokedex-icon.png";
+import woofs from "../../assets/woofs-logo.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function projects() {
@@ -27,6 +28,12 @@ function projects() {
           link={"https://msawatzky-react-pokedex.vercel.app/"}
           h3="Pokedex"
           p="Typescript Pokedex Website"
+        />
+        <ProjectCard
+          src={woofs}
+          link={"https://woofs-n-wags.vercel.app/"}
+          h3="Woofs n Wags"
+          p="Pet services website"
         />
       </div>
       <br />
